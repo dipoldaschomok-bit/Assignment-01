@@ -13,6 +13,15 @@ main {
   padding: 16px 20px;
   border-radius: 30px;
   background-color: white;
+  cursor: pointer;
+}
+.read{
+  color: #458ff6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
 }
 .mulish-normal {
   font-family: "Mulish", sans-serif;
@@ -104,6 +113,11 @@ main {
   font-size: 18px;
   width: 700px;
 }
+#service-btn{
+margin: 50px;
+margin-left: 50%;
+
+}
 .hr {
   width: 56px;
   line-height: 50%;
@@ -177,12 +191,70 @@ main {
 .card-img {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  width: 350px;
+  
 }
 .card {
   background-color: rgba(255, 255, 255, 1);
-  border: 1px solid white;
-  box-shadow: 2px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
   border-radius: 20px;
+  
+}
+
+
+
+
+.footer {
+margin-top: 100px; 
+padding: 100px;
+color: white;
+background-color: #458ff6;
+}
+.footer-container-description img {
+  width: 180px;
+  height: 109px;
+}
+.footer-container-description p {
+  
+  font-size: 16px;
+  
+}
+.footer-container-description  {
+  margin-bottom: 0px;
+}
+.footer-container {
+  gap: 20px;
+  display: flex;
+justify-content: space-around;
+align-items: center;
+  
+}
+.footer-container li{
+  list-style: none;
+}
+.footer-first{
+  width: 390px;
+}
+.footer-nav-logo{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 0px;
+}
+.footer-nav-logo p{
+  
+ background-color: #ffffff;
+  width: 40px;
+  height: 41px;
+  border-radius: 50%;
+  font-size: 26px;
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color:#67c3f3;
+}
+.footer-para{
+  margin-top: 0px;
 }
