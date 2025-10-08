@@ -4,8 +4,21 @@ header {
 main{
   margin: 20px 120px;
   background-color: rgba(255, 255, 255, 1);
-}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
+}
+/* shared design  */
+.common-button{
+  border: 1px solid rgba(69, 143, 246, 1);
+  color: rgba(69, 143, 246, 1);
+  font-size: 18px;
+  font-family: 700;
+  padding:16px 20px ;
+  border-radius: 30px;
+  background-color: white;
+}
 .mulish-normal {
   font-family: "Mulish", sans-serif;
   font-optical-sizing: auto;
@@ -134,4 +147,9 @@ padding: 40px 30px;
   margin-bottom: 100px;
   display: grid;
   grid-template-columns: repeat(3,1fr);
+}
+#learn-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
